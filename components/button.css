@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  position: relative;
+}
+.button-root-class-name {
+  align-self: center;
+}
+@media(max-width: 991px) {
+  .button-button {
+    flex: 1;
+  }
+}
+@media(max-width: 479px) {
+  .button-button {
+    width: 100%;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+}
